@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # Change this IP to what you want to scan.
     target_ip = "IP"
 
-    # This is the range of ports you want to scan (20 to 25).
+    # This is the range of ports you want to scan (0 to 24).
     port_range = get_ports_to_scan()
 
     # Execute the port scan with the provided parameters.
