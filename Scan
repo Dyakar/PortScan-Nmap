@@ -2,7 +2,7 @@ import nmap
 
 def get_ports_to_scan():
     # You can adjust the port ranges as needed.
-    return "20-25"
+    return "0-24"
 
 def print_results(results, target_ip):
     # Print results for each port.
@@ -25,7 +25,7 @@ def scan_ports(target_ip, port_range):
 
 if __name__ == "__main__":
     # Change this IP to what you want to scan.
-    target_ip = "192.168.0.1"
+    target_ip = "IP"
 
     # This is the range of ports you want to scan (20 to 25).
     port_range = get_ports_to_scan()
